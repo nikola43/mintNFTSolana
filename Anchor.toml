@@ -1,7 +1,7 @@
 [features]
 seeds = false
 [programs.devnet]
-metaplex_anchor_nft = "HhyVsqnJexHUtyv8QKEq7J8i8wxLc14xJQbb9Sw4G3ic"
+candy_machine = "HhyVsqnJexHUtyv8QKEq7J8i8wxLc14xJQbb9Sw4G3ic"
 
 [registry]
 url = "https://anchor.projectserum.com"
