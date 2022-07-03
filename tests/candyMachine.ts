@@ -80,7 +80,8 @@ describe('TESTS ', () => {
         mintKey.publicKey
       )
     );
-
+  
+    
     const res = await program.provider.sendAndConfirm(mint_tx, [mintKey]);
     console.log(
       await program.provider.connection.getParsedAccountInfo(mintKey.publicKey)
